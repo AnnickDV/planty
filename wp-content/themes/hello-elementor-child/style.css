@@ -1,0 +1,280 @@
+/*
+Theme Name: Hello Elementor Child
+Theme URI: https://studionumerik.fr/
+Description: Hello Elementor Child Theme
+Author: Studio Numerik
+Author URL: https://studionumerik.fr/
+Template: hello-elementor
+Version: 1.0.0
+License: GNU General Public License v2 or later
+License URL: https://www.gnu.org/licenses/gpl-2.0.html
+Text Domain: hello-elementorchild
+*/
+/* Placer votre CSS ci-dessous */
+
+/* formulaire commander partie quantités commandées*/  
+.container-commander{
+    display:flex;
+    justify-content: center;
+    flex-direction:row;
+}
+.barre_horizontale{
+width:75%;
+border-top:1px solid white;
+margin:0 auto;
+padding-bottom: 0px;
+}
+
+.commande{
+    font-size:30px;
+    font-family:syne;
+    font-weight: 700;
+    margin-bottom:36px;
+    color:white;
+    text-align: left;
+    padding-top: 56px;
+    padding-left: 12.4%;
+}
+
+.produits_horizontal{
+display: flex;
+justify-content: space-between;
+width:80%;
+gap: 30px;
+padding-bottom: 80px;
+}
+
+.produits_vignette{
+    text-align: center;
+    display:flex;
+    flex-direction:column;
+    display:block;
+    margin:0 auto;
+}
+
+.nbre_fraise, .nbre_pamplemousse, .nbre_framboise, .nbre_citron{
+text-align:center;
+padding:10px;
+font-size:16px;
+box-sizing:border-box;
+max-width:50px;
+max-height:76px;
+}
+
+/* Formulaire COMMANDER partie infos clients */
+.deux-colonnes{
+    font-family: Syne;
+    font-size: 20px;
+    font-weight: 400;
+    color: white;
+    display:flex;
+    flex-direction:row;
+    justify-content:center;
+    padding-top: 60px;
+}
+
+.column-left {
+border-right:1px solid white;
+padding-right: 80px;
+width: 70%;
+margin-left:180px;
+}
+
+.column-right {
+padding-left: 80px;
+width: 70%;
+margin-right:180px;
+    }
+
+.form-title{
+    font-family: Syne;
+    font-size: 30px;
+    font-weight: 700;
+    text-align: left;
+    }
+
+input[type="submit"]{
+    display:flex;
+    justify-content:center;
+    font-family: syne;
+    padding-top:30px;
+    border-radius: 5px;
+    margin: 10px 16px 10px 16px;
+}
+
+.submit-commander{
+    display: flex;
+    justify-content: center;
+    padding-top: 30px;
+}
+
+/* Formulaire RENCONTRER */
+
+.wpcf7-form input[your-name], .wpcf7-form input[email]{
+    font-family: Syne;
+    font-size: 30px;
+    color:black;
+    }
+        
+.wpcf7-form input[message]{
+        font-family: Syne;
+        font-size: 30px;
+        color:black;
+        }
+
+.wpcf7-form textarea {
+max-height: 237px;
+            }
+
+.submit-rencontrer{
+    display: flex;
+    justify-content: center;
+    padding-top: 30px;
+}
+
+/* Bouton commander positionnement */
+.conteneur-commander border{
+    padding-bottom: 50px;
+}
+
+#menu-item-1046{
+    order:3;
+}
+
+/* Bouton commander design */
+
+#menu-item-1046 a{
+    color:#ffffff;
+    background-color: #E0B9B4;
+    height:5.1rem;
+    width:9.8em;
+    justify-content: center;
+    border-radius: 0px;
+}
+
+#menu-item-1046 a:hover{
+    background-color: #C02E44;
+}
+
+#menu-item-1046 a:focus{
+    background-color: #C02E44;
+}
+
+/* Bouton rencontrer design */
+
+#menu-item-159 a{
+    height:5rem;
+}
+
+/* MEDIA QUERIES */
+
+@media screen and (min-width:768px) and (max-width:1024px){
+    
+  /* Bouton commander Header */  
+
+    #menu-item-1046 a{
+        color:#ffffff;
+        background-color: #E0B9B4;
+        height:3.1rem;
+        width:7.8em;
+        justify-content: center;
+    }
+}
+  
+@media screen and (min-width:300px) and (max-width:767px){
+/* ACCUEIL Bouton Commander*/
+
+    #menu-item-1046 a{
+        color:#ffffff;
+        background-color: #E0B9B4;
+        height:1.1rem;
+        width:6.8em;
+        justify-content: center;
+        font-size:12px;
+    }
+
+    .barre_horizontale{
+        width:75%;
+        border-top:1px solid white;
+        margin:0 auto;
+        padding-bottom: 0px;
+        }
+        
+        .commande{
+            font-size:20px;
+            font-family:syne;
+            font-weight: 700;
+            margin-bottom:10px;
+            color:white;
+            text-align: left;
+            padding-top: 30px;
+            padding-left: 12.4%;
+        }
+        
+        .produits_horizontal{
+        display: flex;
+        justify-content: space-between;
+        width:75%;
+        gap: 10px;
+        padding-bottom: 30px;
+        }
+
+    .nbre_fraise, .nbre_pamplemousse, .nbre_framboise, .nbre_citron{
+        text-align:center;
+        padding-top:10px;
+        font-size:14px;
+        box-sizing:border-box;
+        max-width:40px;
+        max-height:50px;
+        }
+
+.deux-colonnes{
+    font-family: Syne;
+    font-size: 12px;
+    font-weight: 400;
+    color: white;
+    display:flex;
+    flex-direction:column;
+    justify-content:center;
+}
+
+.column-left{
+border:none;
+padding-right: 180px;
+}
+
+.column-right{
+padding-top:30px;
+padding-left: 180px;
+    }
+
+    .form-title{
+        font-family: Syne;
+        font-size: 24px;
+        font-weight: 700;
+        text-align: left;
+        }
+    
+    input[type="submit"]{
+        display:flex;
+        justify-content:center;
+        font-family: syne;
+        padding-top:10px;
+        border-radius: 5px;
+       padding: 10px 16px 10px 16px!important;
+    }
+
+    .submit-commander{
+padding-right: 20px;
+    }
+
+/* CANNETTES */
+
+.can{
+min-width: 330px;
+max-width: 767px;
+}   
+        
+/* Bouton commander et rencontrer */
+
+}
