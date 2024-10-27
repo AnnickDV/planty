@@ -240,12 +240,12 @@ max-height: 237px;
 
 .column-left{
 border:none;
-padding-right: 180px;
+margin-left : 83px;
 }
 
 .column-right{
 padding-top:30px;
-padding-left: 180px;
+padding-left: 85px;
     }
 
     .form-title{
